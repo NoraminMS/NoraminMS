@@ -1986,11 +1986,12 @@
 			}
 			
 		.utc img {
-			max-width: 25px;
 			background: white;
 			border: 1px solid #ddd;
 			border-radius: 10px;
 			padding: 0 15px 0 15px;
+			width: 300px;
+			height: 150px;
 		}
 
 
