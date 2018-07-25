@@ -2360,6 +2360,10 @@ input, select, textarea {
 			font-weight: normal;
 			text-transform: none !important;
 		}
+		
+		.icon.small {
+			font-size: 4.5em;
+		}
 
 		.icon > .label {
 			display: none;
