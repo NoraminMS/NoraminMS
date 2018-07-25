@@ -11,15 +11,34 @@
 	
 	<body class="is-preload">
 
+		<!-- Notification bar -->	
+			<div id="hellobar-bar" class="regular closable">
+				<div class="hb-content-wrapper">
+					<div class="hb-text-wrapper">
+						<div class="hb-headline-text">
+						<p><span>If you're using mobile phone, please turn to landscape mode for better experience.</span></p>
+						</div>
+					</div>
+					<!--<a href="http://www.lisenme.com/" target="_blank" class="hb-cta hb-cta-button">
+						<div class="hb-text-holder">
+							<p>Subscribe Now</p>
+						</div>
+					</a>-->
+				</div>
+				<div class="hb-close-wrapper">
+					<a href="javascript:void(0);" class="icon-close" onClick="$('#hellobar-bar').fadeOut()">&#10006;</a>
+				</div>
+			</div>
+		
 		<!-- Header -->
 			<div id="header">
 				<!--<span class="logo icon fa-coffee"></span>-->
 				<br/>
 				<br/>
-				<br/>
 				<h1>Hello there! I'm Noramin.</h1>
 				<p>Full-time Engineering Student at UTC Compiègne<br />
 				and part-time traveller.</p>
+				<br/>
 				<br/>
 				<br/>
 				<a href="#main" class="action special button">Discover more</a>
@@ -199,7 +218,7 @@
 				
 				<header class="major container medium">
 					<h2>An Engineer in the Making</h2>
-					<br><hr>
+					<br/><hr/>
 					<section class="feature left">
 						<a href="https://www.linkedin.com/in/noramin-mohd-sapari" class="image fit icon button" target="_blank"><img src="images/linkedin.png" alt="" /></a>
 						<div class="content">
@@ -212,14 +231,22 @@
 					</section>
 				</header>
 				
-				<div class="box major alt container">
-					<header class="major container medium">
-						<h2>Photo Gallery</h2>
-					</header>
-						
+				
+				<header class="major container medium">
+					<h2>Photo Gallery</h2>
+					<br/><hr/>
+					<section class="feature right">
+						<a href="gallery.html" class="image fit icon button"><img src="images/insta.png" alt="" /></a>
+						<div class="content">
+							<h5 class="default">Some of my best recent memories</h5>
+							<a href="gallery.html" class="action special button small">Visit gallery</a>
+						</div>
+					</section>
+				</header>
+				
+				<div class="box major alt container">		
 					<!--<section class="feature left">
-						
-						
+						<a href="#" class="image icon fa-anchor"><img src="images/pic01.jpg" alt="" /></a>
 						<div class="content">
 							<h3>The First Thing</h3>
 							<p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
@@ -245,7 +272,7 @@
 					<h3>Going deeper into my mind?</h3>
 					<p>Well, I don't usually share my personal thoughts with everyone. But since you're here, why not take a dip into my own universe.</p>
 					<ul class="actions special">
-						<li><a href="blog.html" class="button">Read more</a></li>
+						<li><a href="blog.html" class="button">Read entries</a></li>
 					</ul>
 				</footer>
 
