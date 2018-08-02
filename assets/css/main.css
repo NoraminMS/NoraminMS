@@ -2697,8 +2697,8 @@ input, select, textarea {
 				}
 
 					.post > footer .stats li {
-						margin: 0 0 0 1.25em;
-						padding: 0 0 0 1.25em;
+						margin: 0 0 0 0;
+						padding: 0 0 0 0;
 					}
 
 		}
